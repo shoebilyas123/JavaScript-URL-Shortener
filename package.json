@@ -1,0 +1,20 @@
+{
+  "name": "url-shortening-api-master",
+  "version": "1.0.0",
+  "description": "URL Shortening webapp using shrtcode API.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Shoeb Ilyas",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "parcel-bundler": "^1.12.5",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.732"
+  }
+}

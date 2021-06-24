@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <link type="text/css" rel="stylesheet" href="src/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="./src/css/variables.css" />
+    <link type="text/css" rel="stylesheet" href="./src/css/mediaQuery.css"/>;
+
+    <script defer src="src/js/controller.js"></script>
+    <script defer src="src/js/Views/styleViews.js"></script>
+  </head>
+  <body>
+    <div class="main-nav_container" id="main">
+      <nav class="nav-container">
+        <!-- <svg class="get-started__svg">
+          <use href="/images/iconsAll.svg#logo-text"></use>
+        </svg> -->
+        <h1>Shortly</h1>
+        <div class="btn_nav-menu hidden">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="links">
+          <ul class="links__list">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+          <div class="links__signUpandIns">
+            <a href="#">Login</a>
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </nav>
+      <!-- Get Started Section -->
+      <section id="section__get-started">
+        <div class="get-started__intro">
+          <h1>More than just shorter links</h1>
+          <p class="punchline">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing
+          </p>
+          <a href="#url-submit-form" class="btn_get-started">Get Started</a>
+        </div>
+        <img src="./images/illustration-working.svg" alt="">
+      </section>
+      </div>
+<div class="main_container"> 
+
+  <section id="section__url-shortener">
+    <form class="submit-url" id="url-submit-form">
+      <input type="text" class="input-url" placeholder="Shorten a link here..."/>
+      <input type="submit" class="btn_go" value="Shorten it!"></input>
+      <p class="error_message hidden">Please add a valid link</p>
+    </form>
+
+    <div class="short-url--container">
+    </div>
+  </section>
+
+  <section id="section__features">
+    <div class="title">
+      <h1>Advanced Statistics</h1>
+      <p>Track how your links are performing across the web with our
+        advanced statistics dashboard.</p>
+    </div>
+
+    <div class="features__cards">
+      <div class="asthetic-line"></div>
+      <div class="card">
+        <div class="logo-icon">
+          <img src="./images/icon-brand-recognition.svg">
+        </div>
+        <h2 class="card__title">Brand Recognition</h2>
+        <p class="information">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+
+      <div class="card">
+        <div class="logo-icon">
+          <img src="./images/icon-detailed-records.svg">
+        </div>
+        <h2 class="card__title">Detailed Records</h2>
+        <p class="information">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+      </div>
+
+      <div class="card">
+        <div class="logo-icon">
+          <img src="./images/icon-fully-customizable.svg">
+        </div>
+        <h2 class="card__title">Fully Customizable</h2>
+        <p class="information">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+      </div>
+    </div>
+  </section>
+  <section id="section__boost-links">
+    <h1>Boost your links today</h1>
+    <a href="#url-submit-form" class="btn-boost">Get Started</a>
+  </section>
+  <footer class="footer_display">
+    <h1><a href="#main">Shortly</a></h1>
+    <div class="footer__links">
+      <div class="features">
+        <h3>Features</h3>
+        <ul>
+          <li><a href="#">Link Shortening</a></li>
+          <li><a href="#">Branded Links</a></li>
+          <li><a href="#">Analytics</a></li>
+        </ul>
+      </div>
+
+      <div class="resources">
+        <h3>Resources</h3>
+
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Company</a></li>
+        </ul>
+      </div>
+
+      <div class="company">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <ul>
+          <li>
+            <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://www.linkedin.com/in/shoeb-ilyas-6754aa1b6/" target="_blank">Shoeb Ilyas</a>.
+  </div>
+</div>
+
+    <!-- Iconions -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+@media only screen and (max-width: 500px) {
+  #section__get-started,
+  #section_url-shortener,
+  .submit-url,
+  .short-url-list-item,
+  footer,
+  .footer__links,
+  .footer__links .social-media ul,
+  h1 {
+    flex-direction: column;
+  }
+  .nav-container .links {
+    position: fixed;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 275px;
+    z-index: 99999;
+    background-color: var(--primViolet);
+    border-radius: 10px;
+  }
+  .nav-container .links .links__list {
+    width: 90%;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(83, 68, 97);
+  }
+  .nav-container .links .links__list a,
+  .nav-container .links__signUpandIns a {
+    color: white;
+  }
+
+  .nav-container .links .links__list a:hover,
+  .nav-container .links__signUpandIns a:hover {
+    color: var(--grayishViolet);
+  }
+  .nav-container .btn_nav-menu {
+    opacity: 100;
+  }
+
+  .links .links__signUpandIns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .links__signUpandIns a {
+    margin: 15px;
+  }
+  .links__signUpandIns button {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .main-nav_container #section__get-started {
+    flex-direction: column-reverse;
+  }
+  .main-nav_container .get-started__intro {
+    width: 100%;
+    font-size: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav_container .get-started__intro a {
+    transform: scale(2);
+  }
+
+  .main-nav_container .get-started__intro p {
+    font-size: 150%;
+  }
+
+  .main-nav_container #section__get-started img {
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+  #section__url-shortener {
+    margin-top: 25px;
+  }
+  #section__url-shortener .short-url--container {
+    margin: 115px auto 0 auto;
+    width: 85%;
+  }
+  #section__url-shortener .submit-url {
+    background-image: url("../../images/bg-shorten-mobile.svg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #section__url-shortener .input-url,
+  #section__url-shortener .btn_go {
+    width: 100%;
+    margin: 15px;
+  }
+  #section__url-shortener .btn_go {
+    padding: 15px 0;
+  }
+  #section__url-shortener .short-url-list-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+  }
+  .short-url-list-item .short-url {
+    word-break: break-all;
+    width: 100%;
+    border-bottom: 1px solid var(--Gray);
+    padding: 10px;
+  }
+  .short-url-list-item input {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+  }
+  .short-url-list-item button {
+    min-width: 93%;
+    margin: 10px;
+    height: 45px;
+  }
+  #section__features .title {
+    width: 100%;
+  }
+  #section__features .title h1 {
+    margin: 50px auto 15px auto;
+  }
+
+  #section__features .title p {
+    width: 90%;
+  }
+
+  #section__features .features__cards {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  #section__features .card {
+    margin-bottom: 50px;
+  }
+
+  #section__features .asthetic-line {
+    width: 5px;
+    height: 70%;
+    left: 50%;
+    transform: translate(0, -50%);
+  }
+
+  #section__features .card .information {
+    color: var(--grayishViolet);
+  }
+  .features__cards .logo-icon {
+    left: 50%;
+    transform: translate(-50%, -75%);
+  }
+
+  #section__boost-links h1 {
+    margin-bottom: 25px;
+  }
+  .footer_display {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+  }
+
+  .footer_display h1 {
+    margin-bottom: 25px;
+  }
+  .footer_display .footer__links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__links div {
+    margin-bottom: 15px;
+  }
+  /* <div class="short-url-list-item">
+        <p class="short-url">https://${url}</p>
+        <input readonly class="short-url--link" value = "${this._data}">
+        <button class="short-url--copy">Copy</button>
+    </div>` */
+}

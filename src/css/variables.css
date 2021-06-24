@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+:root {
+  --primCyan: hsl(180, 66%, 49%);
+  --primViolet: hsl(257, 27%, 26%);
+  --primCyanOverlay: hsl(180, 71%, 74%);
+  --secRed: hsl(0, 87%, 67%);
+
+  --Gray: hsl(0, 0%, 75%);
+  --grayishViolet: hsl(257, 7%, 63%);
+  --vDarkBlue: hsl(255, 11%, 22%);
+  --vDarkViolet: hsl(260, 8%, 14%);
+
+  --fontSize: 18px;
+  --fontFamily: "Poppins", sans-serif;
+  --fontMed: 500;
+  --fontBold: 700;
+  --maxWidth: 1440px;
+}
