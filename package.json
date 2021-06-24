@@ -9,12 +9,10 @@
   },
   "author": "Shoeb Ilyas",
   "license": "ISC",
-  "dependencies": {
-    "lodash-es": "^4.17.21",
-    "parcel-bundler": "^1.12.5",
-    "regenerator-runtime": "^0.13.7"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.732"
+    "lodash-es": "^4.17.21",
+    "parcel": "^2.0.0-beta.3.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }
